@@ -10,14 +10,15 @@ __pycache__/
 *.egg-info/
 .pytest_cache/
 
-# Generated outputs (intentionally not redistributed — see README "What this repo does NOT contain")
-synth/
-results/
-figures/
-outputs/
-report/*.docx
-report/*.pdf
-report/~$*
+# Generated outputs at REPO ROOT (not under code/)
+# These are produced by running the scripts; we don't redistribute them.
+/synth/
+/results/
+/figures/
+/outputs/
+/report/*.docx
+/report/*.pdf
+/report/~$*
 
 # IDE / editor
 .vscode/
