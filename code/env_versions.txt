@@ -1,0 +1,21 @@
+﻿platform: Windows-11-10.0.26100-SP0
+python: 3.12.9
+executable: C:\Users\User\anaconda3\envs\uni\python.exe
+torch.cuda.is_available: True
+torch.cuda.device_name: NVIDIA GeForce RTX 5070 Ti
+torch.version.cuda: 12.8
+
+packages:
+  pandas==2.2.3
+  numpy==2.2.6
+  sklearn==1.6.1
+  torch==2.11.0+cu128
+  transformers==5.8.0
+  sentence_transformers==5.4.1
+  umap==0.5.12
+  gensim==4.4.0
+  datasets==4.8.5
+  matplotlib==3.10.3
+  seaborn==0.13.2
+  scipy==1.15.3
+  tqdm==4.67.1

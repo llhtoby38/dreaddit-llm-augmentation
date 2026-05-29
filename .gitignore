@@ -1,0 +1,37 @@
+# Environments and secrets
+.env
+.env.local
+*.env
+
+# Python build artefacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# Generated outputs (intentionally not redistributed — see README "What this repo does NOT contain")
+synth/
+results/
+figures/
+outputs/
+report/*.docx
+report/*.pdf
+report/~$*
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# iCloud sync collision artefacts
+* 2.py
+* 2.md
+* 3.py
+* 3.md
